@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EBEC74A2C62BBD700480BAB /* sevaHeartRateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC7492C62BBD700480BAB /* sevaHeartRateAppApp.swift */; };
+		5EBEC74C2C62BBD700480BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC74B2C62BBD700480BAB /* ContentView.swift */; };
+		5EBEC74E2C62BBD900480BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEC74D2C62BBD900480BAB /* Assets.xcassets */; };
+		5EBEC7512C62BBD900480BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEC7502C62BBD900480BAB /* Preview Assets.xcassets */; };
+		5EBEC7592C62E3DD00480BAB /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC7582C62E3DD00480BAB /* HealthKitManager.swift */; };
+		5EBEC75B2C62E40100480BAB /* HeartRateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC75A2C62E40100480BAB /* HeartRateManager.swift */; };
+		5EBEC7602C62E48D00480BAB /* HeartRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC75F2C62E48D00480BAB /* HeartRateViewModel.swift */; };
+		5EBEC7622C62E4A200480BAB /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC7612C62E4A200480BAB /* HeartRateView.swift */; };
+		5EBEC76D2C62EBAC00480BAB /* sevaHeartRateAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC76C2C62EBAC00480BAB /* sevaHeartRateAppApp.swift */; };
+		5EBEC76F2C62EBAC00480BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBEC76E2C62EBAC00480BAB /* ContentView.swift */; };
+		5EBEC7712C62EBAE00480BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEC7702C62EBAE00480BAB /* Assets.xcassets */; };
+		5EBEC7752C62EBAE00480BAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEC7742C62EBAE00480BAB /* Preview Assets.xcassets */; };
+		5EBEC77A2C62ECD800480BAB /* sevaHeartRateApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5EBEC7462C62BBD700480BAB /* sevaHeartRateApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5EDA05852C6644BE00941454 /* HeartRateDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA05842C6644BE00941454 /* HeartRateDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5EBEC77B2C62ECD800480BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EBEC73E2C62BBD700480BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EBEC7452C62BBD700480BAB;
+			remoteInfo = "sevaHeartRateApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5EBEC77D2C62ECD800480BAB /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5EBEC77A2C62ECD800480BAB /* sevaHeartRateApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E7116652C6A676F006AC5F2 /* sevaHeartRateApp-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "sevaHeartRateApp-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5EBEC7462C62BBD700480BAB /* sevaHeartRateApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sevaHeartRateApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBEC7492C62BBD700480BAB /* sevaHeartRateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevaHeartRateAppApp.swift; sourceTree = "<group>"; };
+		5EBEC74B2C62BBD700480BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EBEC74D2C62BBD900480BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EBEC7502C62BBD900480BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EBEC7582C62E3DD00480BAB /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		5EBEC75A2C62E40100480BAB /* HeartRateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateManager.swift; sourceTree = "<group>"; };
+		5EBEC75F2C62E48D00480BAB /* HeartRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateViewModel.swift; sourceTree = "<group>"; };
+		5EBEC7612C62E4A200480BAB /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		5EBEC7652C62E8B500480BAB /* sevaHeartRateApp Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sevaHeartRateApp Watch App.entitlements"; sourceTree = "<group>"; };
+		5EBEC76A2C62EBAC00480BAB /* sevaHeartRateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sevaHeartRateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EBEC76C2C62EBAC00480BAB /* sevaHeartRateAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sevaHeartRateAppApp.swift; sourceTree = "<group>"; };
+		5EBEC76E2C62EBAC00480BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5EBEC7702C62EBAE00480BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EBEC7722C62EBAE00480BAB /* sevaHeartRateApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sevaHeartRateApp.entitlements; sourceTree = "<group>"; };
+		5EBEC7742C62EBAE00480BAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EDA05842C6644BE00941454 /* HeartRateDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EBEC7432C62BBD700480BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBEC7672C62EBAC00480BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EBEC73D2C62BBD700480BAB = {
+			isa = PBXGroup;
+			children = (
+				5EBEC76B2C62EBAC00480BAB /* sevaHeartRateApp */,
+				5EBEC7482C62BBD700480BAB /* sevaHeartRateApp Watch App */,
+				5EBEC7472C62BBD700480BAB /* Products */,
+				5EBEC7792C62ECD800480BAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EBEC7472C62BBD700480BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC7462C62BBD700480BAB /* sevaHeartRateApp Watch App.app */,
+				5EBEC76A2C62EBAC00480BAB /* sevaHeartRateApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EBEC7482C62BBD700480BAB /* sevaHeartRateApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5E7116652C6A676F006AC5F2 /* sevaHeartRateApp-Watch-App-Info.plist */,
+				5EBEC7652C62E8B500480BAB /* sevaHeartRateApp Watch App.entitlements */,
+				5EBEC7632C62E79F00480BAB /* Models */,
+				5EBEC7572C62E3BF00480BAB /* Services */,
+				5EBEC7642C62E84400480BAB /* ViewModels */,
+				5EBEC75E2C62E46B00480BAB /* Views */,
+				5EBEC7492C62BBD700480BAB /* sevaHeartRateAppApp.swift */,
+				5EBEC74B2C62BBD700480BAB /* ContentView.swift */,
+				5EBEC74D2C62BBD900480BAB /* Assets.xcassets */,
+				5EBEC74F2C62BBD900480BAB /* Preview Content */,
+			);
+			path = "sevaHeartRateApp Watch App";
+			sourceTree = "<group>";
+		};
+		5EBEC74F2C62BBD900480BAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC7502C62BBD900480BAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EBEC7572C62E3BF00480BAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC7582C62E3DD00480BAB /* HealthKitManager.swift */,
+				5EBEC75A2C62E40100480BAB /* HeartRateManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5EBEC75E2C62E46B00480BAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC7612C62E4A200480BAB /* HeartRateView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EBEC7632C62E79F00480BAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5EDA05842C6644BE00941454 /* HeartRateDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5EBEC7642C62E84400480BAB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC75F2C62E48D00480BAB /* HeartRateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5EBEC76B2C62EBAC00480BAB /* sevaHeartRateApp */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC76C2C62EBAC00480BAB /* sevaHeartRateAppApp.swift */,
+				5EBEC76E2C62EBAC00480BAB /* ContentView.swift */,
+				5EBEC7702C62EBAE00480BAB /* Assets.xcassets */,
+				5EBEC7722C62EBAE00480BAB /* sevaHeartRateApp.entitlements */,
+				5EBEC7732C62EBAE00480BAB /* Preview Content */,
+			);
+			path = sevaHeartRateApp;
+			sourceTree = "<group>";
+		};
+		5EBEC7732C62EBAE00480BAB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5EBEC7742C62EBAE00480BAB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5EBEC7792C62ECD800480BAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EBEC7452C62BBD700480BAB /* sevaHeartRateApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBEC7542C62BBD900480BAB /* Build configuration list for PBXNativeTarget "sevaHeartRateApp Watch App" */;
+			buildPhases = (
+				5EBEC7422C62BBD700480BAB /* Sources */,
+				5EBEC7432C62BBD700480BAB /* Frameworks */,
+				5EBEC7442C62BBD700480BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sevaHeartRateApp Watch App";
+			productName = "sevaHeartRateApp Watch App";
+			productReference = 5EBEC7462C62BBD700480BAB /* sevaHeartRateApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5EBEC7692C62EBAC00480BAB /* sevaHeartRateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EBEC7762C62EBAE00480BAB /* Build configuration list for PBXNativeTarget "sevaHeartRateApp" */;
+			buildPhases = (
+				5EBEC7662C62EBAC00480BAB /* Sources */,
+				5EBEC7672C62EBAC00480BAB /* Frameworks */,
+				5EBEC7682C62EBAC00480BAB /* Resources */,
+				5EBEC77D2C62ECD800480BAB /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBEC77C2C62ECD800480BAB /* PBXTargetDependency */,
+			);
+			name = sevaHeartRateApp;
+			productName = sevaHeartRateApp;
+			productReference = 5EBEC76A2C62EBAC00480BAB /* sevaHeartRateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EBEC73E2C62BBD700480BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					5EBEC7452C62BBD700480BAB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5EBEC7692C62EBAC00480BAB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5EBEC7412C62BBD700480BAB /* Build configuration list for PBXProject "sevaHeartRateApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EBEC73D2C62BBD700480BAB;
+			productRefGroup = 5EBEC7472C62BBD700480BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EBEC7692C62EBAC00480BAB /* sevaHeartRateApp */,
+				5EBEC7452C62BBD700480BAB /* sevaHeartRateApp Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EBEC7442C62BBD700480BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBEC7512C62BBD900480BAB /* Preview Assets.xcassets in Resources */,
+				5EBEC74E2C62BBD900480BAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBEC7682C62EBAC00480BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBEC7752C62EBAE00480BAB /* Preview Assets.xcassets in Resources */,
+				5EBEC7712C62EBAE00480BAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EBEC7422C62BBD700480BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EDA05852C6644BE00941454 /* HeartRateDataModel.swift in Sources */,
+				5EBEC75B2C62E40100480BAB /* HeartRateManager.swift in Sources */,
+				5EBEC7622C62E4A200480BAB /* HeartRateView.swift in Sources */,
+				5EBEC74C2C62BBD700480BAB /* ContentView.swift in Sources */,
+				5EBEC7602C62E48D00480BAB /* HeartRateViewModel.swift in Sources */,
+				5EBEC74A2C62BBD700480BAB /* sevaHeartRateAppApp.swift in Sources */,
+				5EBEC7592C62E3DD00480BAB /* HealthKitManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EBEC7662C62EBAC00480BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EBEC76F2C62EBAC00480BAB /* ContentView.swift in Sources */,
+				5EBEC76D2C62EBAC00480BAB /* sevaHeartRateAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5EBEC77C2C62ECD800480BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EBEC7452C62BBD700480BAB /* sevaHeartRateApp Watch App */;
+			targetProxy = 5EBEC77B2C62ECD800480BAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5EBEC7522C62BBD900480BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EBEC7532C62BBD900480BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5EBEC7552C62BBD900480BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "sevaHeartRateApp Watch App/sevaHeartRateApp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sevaHeartRateApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UX98524U82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sevaHeartRateApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Seva App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to access your health data";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This application needs to access motion data to detect whether you are at rest or in motion and adjust the heart rate readings accordingly.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alternova.sevaHeartRate;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alternova.sevaHeartRate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		5EBEC7562C62BBD900480BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "sevaHeartRateApp Watch App/sevaHeartRateApp Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"sevaHeartRateApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = UX98524U82;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "sevaHeartRateApp-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Seva App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to access your health data";
+				INFOPLIST_KEY_NSMotionUsageDescription = "This application needs to access motion data to detect whether you are at rest or in motion and adjust the heart rate readings accordingly.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.alternova.sevaHeartRate;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alternova.sevaHeartRate.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		5EBEC7772C62EBAE00480BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sevaHeartRateApp/sevaHeartRateApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"sevaHeartRateApp/Preview Content\"";
+				DEVELOPMENT_TEAM = UX98524U82;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seva app";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to access your health data";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alternova.sevaHeartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EBEC7782C62EBAE00480BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = sevaHeartRateApp/sevaHeartRateApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"sevaHeartRateApp/Preview Content\"";
+				DEVELOPMENT_TEAM = UX98524U82;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Seva app";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This app needs to access your health data";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alternova.sevaHeartRate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EBEC7412C62BBD700480BAB /* Build configuration list for PBXProject "sevaHeartRateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBEC7522C62BBD900480BAB /* Debug */,
+				5EBEC7532C62BBD900480BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBEC7542C62BBD900480BAB /* Build configuration list for PBXNativeTarget "sevaHeartRateApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBEC7552C62BBD900480BAB /* Debug */,
+				5EBEC7562C62BBD900480BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EBEC7762C62EBAE00480BAB /* Build configuration list for PBXNativeTarget "sevaHeartRateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EBEC7772C62EBAE00480BAB /* Debug */,
+				5EBEC7782C62EBAE00480BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EBEC73E2C62BBD700480BAB /* Project object */;
+}
